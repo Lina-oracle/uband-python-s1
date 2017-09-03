@@ -7,7 +7,7 @@ class Fish():
     self.location = location
 
   def jump(self):
-    print '来自 %s 的鱼 %s 开始跳起来了' %(self.location, self.name)
+    print '来自 %s 的鱼 %s 开始跳起来了 ' %(self.location, self.name)
 
 
 class Bird():
@@ -15,10 +15,10 @@ class Bird():
     self.name = name
 
   def fly(self, height):
-    print '%s 飞了 %d 米' %(self.name, height)
+    print '%s 飞了 %d 米 ' %(self.name, height)
 
   def down(self):
-    print '%s 摔死了' %(self.name)
+    print '%s 摔死了 ' %(self.name)
 
 
 def main():

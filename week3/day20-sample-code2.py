@@ -9,7 +9,7 @@ class Car():
 
   def be_drived(self, distance):
     hour = float(distance)/self.speed
-    print '驾驶 %s 开 %dkm 去b地开了 %0.2f 小时' % (self.brand,
+    print '驾驶 %s 开 %dkm 去b地开了 %0.2f 小时 ' % (self.brand,
        distance, hour)
 
 def main():

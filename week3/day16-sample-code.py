@@ -7,7 +7,7 @@ def main():
   #设置一个画面
   windows = turtle.Screen()
   #设置背景
-  windows.bgcolor('blue')
+  windows.bgcolor('purple')
   #生成一个黄色乌龟
   bran = turtle.Turtle()
   bran.shape('turtle')
